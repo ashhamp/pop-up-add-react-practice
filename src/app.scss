@@ -1,0 +1,48 @@
+/* Your styling here */
+$pink: #ff33cc;
+$black: #000000;
+$yellow: #ffdb4d;
+$bluegreen: #33cccc;
+$grey: rgba(0, 0, 0, 0.4);
+
+
+.close-right {
+  color: $grey;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+}
+.input-style {
+  background-color: $yellow;
+  border: outset 2px $pink;
+  color: $black;
+  padding: 3px;
+  width: 450px;
+}
+
+.main-div {
+  background-color: $pink;
+  border-radius: 20px;
+  border: solid 2px $black;
+  color: $yellow;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.submit-button {
+  background-color: $bluegreen;
+  border: solid 3px $black;
+  box-shadow: 3px 3px 0px $black;
+  color: $pink;
+  padding: 3px;
+  width: 190px;
+}
+
+.title-font {
+  font-size: 30px;
+
+}
